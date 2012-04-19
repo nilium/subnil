@@ -1,0 +1,11 @@
+[
+  {
+    "caption": "C: Include Once (#ifndef __FILENAME__ …)",
+    "command": "include_once",
+    "selector": "source.c, source.c++, source.objc, source.objc++"
+  },
+  {
+    "caption": "License: Insert License",
+    "command": "insert_license"
+  }
+]
