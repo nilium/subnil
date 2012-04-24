@@ -4,17 +4,37 @@ Notes
 The Theme
 --------------------------
 
-_Tubnil_: This is a modified version of the Tubster theme for TextMate.  Kind of hard to describe, so here's a picture:
+_Tubnil_: This is a modified version of the Tubster theme for TextMate.  Kind
+of hard to describe, so here's a picture of both the light and dark variants:
 
+**Dark**
 ![Tubnil Screenshot](http://www.spifftastic.net/skitch/tubnil-20120419-033143.png)
 
+**Light**
+![Tubnil Bright Screenshot](http://www.spifftastic.net/skitch/tubbr-20120424-023303.png)
 
 Commands
 --------------------------
 
+### `swap_theme`
+
+**Under the quick panel as "Set Dark Theme" and "Set Light Theme"**
+
+Swaps your current theme for given dark or light theme settings.  Relevant
+settings for that:
+
+* `light_color_scheme` and `dark_color_scheme` specify your light & dark color
+  schemes respectively.  Defaults to Dawn and Monokai respectively.
+
+* `light_theme` and `dark_theme` specify the light & dark UI themes
+  respectively.  Defaults to the default theme.
+
 ### `insert_license`
 
-Inserts one of the specified licenses at the insertion point (or replaces whatever you have selected).  Fairly simply.
+**Under the quick panel as "License: Insert License"**
+
+Inserts one of the specified licenses at the insertion point (or replaces
+whatever you have selected).  Fairly simply.
 
 Settings for `insert_license`:
 
@@ -36,5 +56,8 @@ Settings for `insert_license`:
 
 ### `include_once`
 
-Generates include guards for the file this is run in.  If you've got text selected already, it'll wrap it in the include guards.
+**Under the quick panel as "C: Include Once"**
+
+Generates include guards for the file this is run in.  If you've got text
+selected already, it'll wrap it in the include guards.
 
