@@ -1,0 +1,12 @@
+[
+  {
+    "caption": "Set Light Theme",
+    "command": "swap_theme",
+    "args": {"scheme":"light"}
+  },
+  {
+    "caption": "Set Dark Theme",
+    "command": "swap_theme",
+    "args": {"scheme":"dark"}
+  }
+]
