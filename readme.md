@@ -1,18 +1,6 @@
 Notes
 ==========================
 
-The Theme
---------------------------
-
-_Tubnil_: This is a modified version of the Tubster theme for TextMate.  Kind
-of hard to describe, so here's a picture of both the light and dark variants:
-
-**Dark**
-![Tubnil Screenshot](http://www.spifftastic.net/skitch/tubnil-20120419-033143.png)
-
-**Light**
-![Tubnil Bright Screenshot](http://www.spifftastic.net/skitch/tubbr-20120424-023303.png)
-
 Commands
 --------------------------
 
