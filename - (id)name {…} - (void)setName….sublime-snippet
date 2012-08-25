@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+- (${1:id})${2:name}
+{
+  __block $1${1/(^[^\s]*$)|(^.*$)/(?1: )/}result;
+  dispatch_sync(${3:queue}, ^{
+      result = ${4:_$2};
+    });
+  return result;
+}
+
+- (void)set${2/./\u$0/}:($1)${5:new${2/./\u$0/}}
+{
+  dispatch_barrier_async($3, ^{
+      $4 = ${6:$5};
+    });
+}
+]]></content>
+  <tabTrigger>rw</tabTrigger>
+  <scope>meta.scope.implementation.objc - meta.block</scope>
+</snippet>
