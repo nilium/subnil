@@ -13,7 +13,7 @@ $0{inner}
 
 	def run(self, edit):
 		name = self.view.file_name()
-		
+
 		if name is None:
 			name = 'UNTITLED'
 		else:
@@ -26,10 +26,10 @@ $0{inner}
 
 		selection = self.view.sel()
 		inner_text = ''
-		
+
 		for region in selection:
 			inner_text = self.view.substr(self.view.line(region))
 			break
-		
+
 		guard = IncludeOnceCommand.ONCE_SNIPPET.format(guard_name = name, inner = inner_text)
 		self.view.run_command('insert_snippet', {'contents':guard})
