@@ -20,6 +20,9 @@ $0{inner}
 			name = os.path.basename(name.upper())
 
 		name = re.sub('[^\w]+', '_', name)
+		guard_prefix = self.view.settings().get('include_guard_prefix', '')
+		if not name is '':
+			name = guard_prefix + name
 
 		selection = self.view.sel()
 		inner_text = ''
