@@ -10,5 +10,9 @@
   {
     "caption": "C: Extern \"C\" Wrap",
     "command": "wrap_extern"
+  },
+  {
+    "caption": "UUID: Generate",
+    "command": "insert_uuid"
   }
 ]
