@@ -1,0 +1,5 @@
+[
+  { "keys": ["super+\\", "super+\\"], "command": "swap_selection_points", "args": { "mode": "swap" } },
+  { "keys": ["super+\\", "super+]"], "command": "swap_selection_points", "args": { "mode": "max" } },
+  { "keys": ["super+\\", "super+["], "command": "swap_selection_points", "args": { "mode": "min" } }
+]
