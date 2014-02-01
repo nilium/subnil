@@ -6,5 +6,9 @@
   {
     "caption": "License: Insert License",
     "command": "insert_license"
+  },
+  {
+    "caption": "C: Extern \"C\" Wrap",
+    "command": "wrap_extern"
   }
 ]
