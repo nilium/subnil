@@ -274,8 +274,8 @@ class WrapInBannerCommentCommand(sublime_plugin.TextCommand):
     tab_size = settings.get("tab_size", 4)
 
     # Get setting defaults
-    outer_text = settings.get('banner_comment_outer_text', '=')
-    wall_text = settings.get('banner_comment_wall_text', '||')
+    outer_text = settings.get('banner_comment_outer_text', None)
+    wall_text = settings.get('banner_comment_wall_text', None)
 
     if padding is None:
       padding = settings.get('banner_comment_padding', tab_size)
